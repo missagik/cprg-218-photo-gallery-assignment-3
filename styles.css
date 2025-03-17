@@ -16,7 +16,7 @@ header {
     text-align: center;
 }
 
-nav {
+nav, footer {
     background-color: #d9043d;
     margin: 1rem 0 0 0;
     padding: 0.5rem;
@@ -96,10 +96,12 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     figure:last-of-type {
         grid-column: span 2;
         text-align: center;
     }
+
     figcaption h3, p {
         text-align: left;
     }
@@ -110,10 +112,12 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     figure:last-of-type {
         grid-column: span 2;
         text-align: center;
     }
+    
     figcaption h3, p {
         text-align: left;
     }
